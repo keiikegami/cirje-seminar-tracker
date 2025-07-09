@@ -1,0 +1,39 @@
+name: Daily scrape & deploy
+
+on:
+  schedule:
+    - cron:  '0 3 * * *'   # UTC 18:00 → JST 翌 3:00
+  workflow_dispatch:       # 手動実行用
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git add docs/index.html events.json
+            git commit -m "auto: update schedule $(date -u '+%Y-%m-%d')"
+            git push
+          fi
+        env:
+          # PAT は Settings → Developer settings → Fine-grained PAT
+          # レポジトリ書き込み権限を付与し、Repository Secret GITHUB_TOKEN_PAT に保存
+          # 下記のように設定しておくと safe
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN_PAT }}
