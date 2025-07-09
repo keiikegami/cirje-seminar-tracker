@@ -1,5 +1,9 @@
 name: Daily scrape & deploy
 
+permissions:
+  contents: write    # ← これを追加（push / commit / tag などに必要）
+
+
 on:
   schedule:
     - cron:  '0 3 * * *'   # UTC 18:00 → JST 翌 3:00
