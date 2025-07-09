@@ -1,48 +1,62 @@
 #!/usr/bin/env python3
 import datetime as dt
-import json, re, sys
+import re, sys
 from pathlib import Path
+
 import requests
 from bs4 import BeautifulSoup
+from dateutil import parser as du  # ← NEW
 
 BASE_URL = "https://www.cirje.e.u-tokyo.ac.jp/research/03research03ws.html"
 WORKSHOPS = {
     "Macroeconomics Workshop":      r"Macroeconomics Workshop",
     "Microeconomic Theory Workshop":r"Microeconomic Theory Workshop",
     "Urban Economics Workshop":     r"Urban Economics Workshop",
-    "Applied Statistics Workshop":  r"The Applied Statistics Workshop",
+    "The Applied Statistics Workshop": r"The Applied Statistics Workshop",
     "Empirical Microeconomics Workshop": r"Empirical Microeconomics Workshop",
 }
-
 TODAY = dt.date.today()
 
-def fetch():
+def fetch(debug=False):
     html = requests.get(BASE_URL, timeout=30).text
     soup = BeautifulSoup(html, "html.parser")
     events = []
-    for ws_name, pattern in WORKSHOPS.items():
-        header = soup.find("h3", string=re.compile(pattern, re.I))
-        if not header:
+
+    for ws, patt in WORKSHOPS.items():
+        # h1〜h4 どれでも拾う
+        head = soup.find(re.compile("^h[1-4]$"), string=re.compile(patt, re.I))
+        if not head:
             continue
-        # テーブル or <p> リスト直後を探す
-        node = header.find_next(["table", "ul", "ol", "p"])
-        rows = node.select("tr") or node.select("p")  # 形式揺れ対策
-        for r in rows:
-            text = " ".join(r.stripped_strings)
-            # 例: "2025年7月24日 (木)  Masao Fukui  “Optimal Dynamic Spatial Policy”"
-            m = re.match(r"(\d{4})年?(\d{1,2})月(\d{1,2})日.*?([A-Z][^“”]+?)\s+[“\"]?(.+?)[”\"]?$", text)
-            if not m:
+
+        tbl = head.find_next("table")
+        if not tbl:
+            continue
+
+        for tr in tbl.find_all("tr"):
+            cells = [td.get_text(strip=True) for td in tr.find_all("td")]
+            if len(cells) < 2:
                 continue
-            y, mth, d, speaker, title = m.groups()
-            event_date = dt.date(int(y), int(mth), int(d))
-            if event_date >= TODAY:
-                events.append({
-                    "date": event_date.isoformat(),
-                    "ws": ws_name,
-                    "speaker": speaker.strip(),
-                    "title": title.strip(),
-                })
-    return sorted(events, key=lambda x: x["date"])
+
+            # cells[0] → 日付、cells[1] → 発表者、cells[2] 以降 → タイトル
+            date_txt, speaker = cells[0], cells[1]
+            title = " ".join(cells[2:]) if len(cells) >= 3 else "TBA"
+
+            # dateutil が大抵の表記をパースしてくれる
+            try:
+                d = du.parse(date_txt, dayfirst=False, yearfirst=False).date()
+            except (du.ParserError, ValueError):
+                if debug: print("!! date parse fail:", date_txt, file=sys.stderr)
+                continue
+
+            if d >= TODAY:
+                events.append(
+                    dict(date=d.isoformat(), ws=ws, speaker=speaker, title=title)
+                )
+
+    events.sort(key=lambda x: x["date"])
+    if debug:
+        for e in events: print(e)
+    return events
 
 def render_html(events):
     items = "\n".join(
@@ -50,6 +64,7 @@ def render_html(events):
         f'{e["speaker"]} – “{e["title"]}”</li>'
         for e in events
     )
+    now = dt.datetime.now().strftime("%Y-%m-%d %H:%M JST")
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <meta charset="utf-8">
@@ -59,17 +74,18 @@ def render_html(events):
   <ul>
 {items}
   </ul>
-  <p style="font-size:smaller">Last updated: {dt.datetime.now():%Y-%m-%d %H:%M JST}</p>
+  <p style="font-size:smaller">Last updated: {now}</p>
 </body>
 </html>
 """
 
 def main():
-    ev = fetch()
+    debug = "--debug" in sys.argv
+    ev = fetch(debug=debug)
+    if debug:
+        return
     Path("docs/index.html").write_text(render_html(ev), encoding="utf-8")
-    # JSON も残しておくと他の用途に便利
-    Path("events.json").write_text(json.dumps(ev, ensure_ascii=False, indent=2))
+    Path("events.json").write_text(str(ev), encoding="utf-8")
 
 if __name__ == "__main__":
     main()
-
