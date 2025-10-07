@@ -1,18 +1,8 @@
 [
   {
-    "date": "2025-10-06",
-    "ws": "Empirical Micro WS",
-    "info": "Dan Han, (the Lee Kuan Yew School of Public Policy at the National University of Singapore, ), Better Together? The Impact of Multi-State Purchasing Pools on Medicaid Drug Spending and Utilization"
-  },
-  {
-    "date": "2025-10-07",
-    "ws": "Micro Theory WS",
-    "info": "Gerelt Tserenjigmid(University of California, Santa Cruz), “Inertial Updating with General Information”"
-  },
-  {
     "date": "2025-10-09",
     "ws": "Macroeconomics WS",
-    "info": "Bingjing Li (University of Hong Kong), Exclusions for Sale? Tariff Exemptions and the US-China Tariff War (joint with Davin Chor and Matthew Grant) [, Abstract, ]"
+    "info": "Bingjing Li (University of Hong Kong), Exclusions for Sale? Tariff Exemptions and the US-China Tariff War (joint with Davin Chor and Matthew Grant) [, Paper, ]"
   },
   {
     "date": "2025-10-10",
@@ -77,7 +67,7 @@
   {
     "date": "2025-10-30",
     "ws": "Macroeconomics WS",
-    "info": "Tack Yun, (Seoul National University), TBA"
+    "info": "Tack Yun, (Seoul National University), Assignment of Workers with Rigid Job Separation and Optimal Inflation [, PDF, ]"
   },
   {
     "date": "2025-11-06",
@@ -98,6 +88,11 @@
     "date": "2025-11-17",
     "ws": "Empirical Micro WS",
     "info": "Ken Yamada, (Kyoto University), TBA"
+  },
+  {
+    "date": "2025-11-18",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2025-12-01",
