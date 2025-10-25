@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-10-24",
-    "ws": "Applied Statistics WS",
-    "info": "Donlapark Ponnoprat (Chiang Mai University), Minimax Rates of Estimation for Optimal Transport Map between Infinite-Dimensional Spaces"
-  },
-  {
     "date": "2025-10-27",
     "ws": "Empirical Micro WS",
     "info": "Daniel Waldinger, (New York University), Designing Dynamic Reassignment Mechanisms: Evidence from GP Allocation\" with Ingrid Huitfeldt, Victoria Marone [, Paper, ]"
@@ -158,6 +153,11 @@
     "date": "2026-01-29",
     "ws": "Macroeconomics WS",
     "info": "TBA, ＜　Past Seminars　＞"
+  },
+  {
+    "date": "2026-03-02",
+    "ws": "Empirical Micro WS",
+    "info": "Douglas N. Harris, (Tulane University), TBA"
   },
   {
     "date": "2026-04-06",
