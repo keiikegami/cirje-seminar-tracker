@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-11-06",
-    "ws": "Macroeconomics WS",
-    "info": "平田　渉・長田　充弘, （日本銀行金融機構局）, BOJ Financial Stability Report （金融システムレポート）[, 資料, ]"
-  },
-  {
     "date": "2025-11-07",
     "ws": "Urban Economics WS",
     "info": "中澤 伸彦 (一橋大学), Nobuhiko Nakazawa (Hitotsubashi University), The Impact of the Publication of School Test Scores on Housing Markets: Evidence from Japan"
@@ -18,6 +13,16 @@
     "date": "2025-11-17",
     "ws": "Empirical Micro WS",
     "info": "Ken Yamada, (Kyoto University), Firm innovation, aggregate employment, and productivity"
+  },
+  {
+    "date": "2025-11-18",
+    "ws": "Macroeconomics WS",
+    "info": "Davin Chor, (Dartmouth College and NBER), The Aggregate Welfare and Trade Implications of Contracting Frictions in Global Sourcing   (joint with Lin Ma) [, Abstract, ], Co-Host, Center for Advanced Research in Finance (CARF)"
+  },
+  {
+    "date": "2025-11-20",
+    "ws": "Macroeconomics WS",
+    "info": "Yoichi Sugita, (Keio University), Identification and Estimation of Production Function and Consumer Demand Function under Monopolistic Competition from Revenue Data (joint with Chun Pang Chow and Hiroyuki Kasahara) [, Abstract, ]"
   },
   {
     "date": "2025-12-01",
@@ -110,19 +115,9 @@
     "info": "Jongkwan (Kwan) Lee, (Yonsei University), TBA"
   },
   {
-    "date": "2026-01-18",
-    "ws": "Macroeconomics WS",
-    "info": "Davin Chor, (Dartmouth College and NBER), The Aggregate Welfare and Trade Implications of Contracting Frictions in Global Sourcing   (joint with Lin Ma) [, Abstract, ], Co-Host, Center for Advanced Research in Finance (CARF)"
-  },
-  {
     "date": "2026-01-19",
     "ws": "Empirical Micro WS",
     "info": "Laura Boudreau, (Columbia University), TBA"
-  },
-  {
-    "date": "2026-01-20",
-    "ws": "Macroeconomics WS",
-    "info": "Yoichi Sugita, (Keio University), Identification and Estimation of Production Function and Consumer Demand Function under Monopolistic Competition from Revenue Data (joint with Chun Pang Chow and Hiroyuki Kasahara) [, Abstract, ]"
   },
   {
     "date": "2026-01-22",
