@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-11-20",
-    "ws": "Macroeconomics WS",
-    "info": "Yoichi Sugita, (Keio University), Identification and Estimation of Production Function and Consumer Demand Function under Monopolistic Competition from Revenue Data (joint with Chun Pang Chow and Hiroyuki Kasahara) [, Paper, ]"
-  },
-  {
     "date": "2025-11-25",
     "ws": "Micro Theory WS",
     "info": "TBA"
@@ -17,7 +12,7 @@
   {
     "date": "2025-12-02",
     "ws": "Micro Theory WS",
-    "info": "Frank Yang (Harvard University),, “Bundling against Learning” (with Agathe Pernoud)"
+    "info": "Kala Krishna(Pennsylvania State University),, “Bundling against Learning” (with Agathe Pernoud)"
   },
   {
     "date": "2025-12-04",
@@ -30,6 +25,11 @@
     "info": "篠崎智大 (東京大学), Tomohiro Shinozaki (the University of Tokyo), TBA"
   },
   {
+    "date": "2025-12-05",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
     "date": "2025-12-08",
     "ws": "Empirical Micro WS",
     "info": "Ahmed Khwaja, (University of Cambridge), TBA"
@@ -38,11 +38,6 @@
     "date": "2025-12-09",
     "ws": "Micro Theory WS",
     "info": "TBA"
-  },
-  {
-    "date": "2025-12-11",
-    "ws": "Macroeconomics WS",
-    "info": "Yilei Liu, (Southwestern University of Finance and Economics), TBA, Co-Host, Center for Advanced Research in Finance (CARF)"
   },
   {
     "date": "2025-12-15",
