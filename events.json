@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-04",
-    "ws": "Macroeconomics WS",
-    "info": "In Hwan Jo, (Waseda University), Financing Development: The Role of Long-term Debt"
-  },
-  {
     "date": "2025-12-05",
     "ws": "Applied Statistics WS",
     "info": "篠崎智大 (東京大学), Tomohiro Shinozaki (the University of Tokyo), Dynamic treatment regimes: foundations and applications in medical research\" (動的治療レジメンの効果推定：基本と医学分野での応用)"
@@ -53,6 +48,11 @@
     "date": "2026-01-05",
     "ws": "Empirical Micro WS",
     "info": "Kurt Sweat, (The University of Texas Southwestern), TBA"
+  },
+  {
+    "date": "2026-01-07",
+    "ws": "Empirical Micro WS",
+    "info": "Elaine Meichen Liu, (Georgia State University), Externalities of Marijuana Legalization: Marijuana Use in Non-Legalizing States"
   },
   {
     "date": "2026-01-08",
