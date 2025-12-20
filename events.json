@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-19",
-    "ws": "Applied Statistics WS",
-    "info": "Yiqing Xu (Stanford University), Factorial Difference-in-Differences"
-  },
-  {
     "date": "2025-12-22",
     "ws": "Empirical Micro WS",
     "info": "Michael Dinerstein, (Duke University), Student Loan Forgiveness\" with Samuel Earnest, Dmitri Koustas, Constantine Yannelis"
@@ -43,6 +38,11 @@
     "date": "2026-01-09",
     "ws": "Macroeconomics WS",
     "info": "Joel  Rodrigue, (Vanderbilt University), TBA"
+  },
+  {
+    "date": "2026-01-09",
+    "ws": "Empirical Micro WS",
+    "info": "Fangyuan Peng, (University of Hong Kong), TBA"
   },
   {
     "date": "2026-01-12",
