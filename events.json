@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-05",
-    "ws": "Empirical Micro WS",
-    "info": "Kurt Sweat, (The University of Texas Southwestern), Performance Monitoring and Certification Threats: Evidence from Organ Transplantation\" with Itai Ashlagi and Hannah Bae"
-  },
-  {
     "date": "2026-01-06",
     "ws": "Empirical Micro WS",
     "info": "Yun-Ting Yeh, (University of Arizona), Adjustment Frictions and the Cost of Environmental Regulatory Uncertainty [, Paper, ]"
@@ -27,7 +22,7 @@
   {
     "date": "2026-01-09",
     "ws": "Macroeconomics WS",
-    "info": "Joel  Rodrigue, (Vanderbilt University), TBA"
+    "info": "Joel  Rodrigue, (Vanderbilt University), Information Spillovers for Export Markets [, Paper, ]"
   },
   {
     "date": "2026-01-09",
@@ -47,7 +42,7 @@
   {
     "date": "2026-01-16",
     "ws": "Urban Economics WS",
-    "info": "Jongkwan (Kwan) Lee, (Yonsei University), TBA"
+    "info": "Jongkwan (Kwan) Lee, (Yonsei University), More Robots, More People: Robot-Induced Internal Migration in South Korea"
   },
   {
     "date": "2026-01-16",
@@ -62,12 +57,12 @@
   {
     "date": "2026-01-22",
     "ws": "Macroeconomics WS",
-    "info": "TBA"
+    "info": "No seminar scheduled"
   },
   {
     "date": "2026-01-29",
     "ws": "Macroeconomics WS",
-    "info": "TBA, ＜　Past Seminars　＞"
+    "info": "No seminar scheduled, ＜　Past Seminars　＞"
   },
   {
     "date": "2026-02-16",
@@ -123,5 +118,10 @@
     "date": "2026-06-29",
     "ws": "Empirical Micro WS",
     "info": "Luca Henkel, (Erasmus University Rotterdam), TBA"
+  },
+  {
+    "date": "2027-01-05",
+    "ws": "Empirical Micro WS",
+    "info": "Kurt Sweat, (The University of Texas Southwestern), Performance Monitoring and Certification Threats: Evidence from Organ Transplantation\" with Itai Ashlagi and Hannah Bae"
   }
 ]
