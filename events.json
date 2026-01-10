@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-09",
-    "ws": "Macroeconomics WS",
-    "info": "Joel  Rodrigue, (Vanderbilt University), Information Spillovers for Export Markets [, Paper, ]"
-  },
-  {
-    "date": "2026-01-09",
-    "ws": "Empirical Micro WS",
-    "info": "Cancelled, Fangyuan Peng   (University of Hong Kong), When Trade Burns the Air: The Welfare Consequences of Agricultural Trade Liberalization."
-  },
-  {
     "date": "2026-01-12",
     "ws": "Empirical Micro WS",
     "info": "Claudia Allende, (Stanford University Graduate School of Business), Centralizing Procurement: the Roles of Scale, Selection and Variety"
@@ -103,5 +93,10 @@
     "date": "2026-06-29",
     "ws": "Empirical Micro WS",
     "info": "Luca Henkel, (Erasmus University Rotterdam), TBA"
+  },
+  {
+    "date": "2027-01-09",
+    "ws": "Empirical Micro WS",
+    "info": "Cancelled, Fangyuan Peng   (University of Hong Kong), When Trade Burns the Air: The Welfare Consequences of Agricultural Trade Liberalization."
   }
 ]
