@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-12",
-    "ws": "Empirical Micro WS",
-    "info": "Claudia Allende, (Stanford University Graduate School of Business), Centralizing Procurement: the Roles of Scale, Selection and Variety"
-  },
-  {
     "date": "2026-01-13",
     "ws": "Empirical Micro WS",
     "info": "Sayantan Mitra, (University of California, Berkeley), Who Benefits From Deforestation for Infrastructure? Evidence from India"
@@ -98,5 +93,10 @@
     "date": "2027-01-09",
     "ws": "Empirical Micro WS",
     "info": "Cancelled, Fangyuan Peng   (University of Hong Kong), When Trade Burns the Air: The Welfare Consequences of Agricultural Trade Liberalization."
+  },
+  {
+    "date": "2027-01-12",
+    "ws": "Empirical Micro WS",
+    "info": "Claudia Allende, (Stanford University Graduate School of Business), Centralizing Procurement: the Roles of Scale, Selection and Variety"
   }
 ]
