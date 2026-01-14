@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-13",
-    "ws": "Empirical Micro WS",
-    "info": "Sayantan Mitra, (University of California, Berkeley), Who Benefits From Deforestation for Infrastructure? Evidence from India"
-  },
-  {
     "date": "2026-01-16",
     "ws": "Urban Economics WS",
     "info": "Jongkwan (Kwan) Lee, (Yonsei University), More Robots, More People: Robot-Induced Internal Migration in South Korea"
@@ -98,5 +93,10 @@
     "date": "2027-01-12",
     "ws": "Empirical Micro WS",
     "info": "Claudia Allende, (Stanford University Graduate School of Business), Centralizing Procurement: the Roles of Scale, Selection and Variety"
+  },
+  {
+    "date": "2027-01-13",
+    "ws": "Empirical Micro WS",
+    "info": "Sayantan Mitra, (University of California, Berkeley), Who Benefits From Deforestation for Infrastructure? Evidence from India"
   }
 ]
