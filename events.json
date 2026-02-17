@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-02-16",
-    "ws": "Empirical Micro WS",
-    "info": "David Chan, (University of California, Berkeley), Are Guidelines Worth Following? Treatment Decisions Under Scientific Uncertainty"
-  },
-  {
     "date": "2026-02-20",
     "ws": "Urban Economics WS",
     "info": "鈴木悠太, （上海交通大学）, Yuta Suzuki, (Shanghai Jiao Tong University), Pro-Manufacturing Land Policies of Competing Local Governments: A Quantitative Analysis of China\" with Ming Lu, Xican Xi, Le Xu, and Yuejun Zhong, 高山雄貴, （東京科学大学）, Yuki Takayama, (Institute of Science Tokyo), 「道路ネットワークにおける混雑外部性の定量化：確率的進化ゲームモデルを用いた構造推定アプローチ」（一橋大学　藤嶋 翔太・東京科学大学　酒井 高良との共著）"
@@ -88,5 +83,10 @@
     "date": "2026-06-29",
     "ws": "Empirical Micro WS",
     "info": "Luca Henkel, (Erasmus University Rotterdam), TBA"
+  },
+  {
+    "date": "2027-02-16",
+    "ws": "Empirical Micro WS",
+    "info": "David Chan, (University of California, Berkeley), Are Guidelines Worth Following? Treatment Decisions Under Scientific Uncertainty"
   }
 ]
