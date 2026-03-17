@@ -20,6 +20,11 @@
     "info": "Rocco Macchiavello, (London School of Economics), TBA"
   },
   {
+    "date": "2026-04-07",
+    "ws": "Micro Theory WS",
+    "info": "Simon Jantschgi (University of Zurich),, “"
+  },
+  {
     "date": "2026-04-13",
     "ws": "Empirical Micro WS",
     "info": "Peter Kuhn, (University of California Santa Barbara), TBA"
@@ -30,14 +35,29 @@
     "info": "Matthew J. Neidell, (Columbia University), TBA"
   },
   {
+    "date": "2026-04-14",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
     "date": "2026-04-20",
     "ws": "Empirical Micro WS",
     "info": "Adrienne Sabety, (Stanford University), Healthcare Provider Bankruptcies\" with Samuel Antill, Jessica Bai, Ashvin Gandhi [, Paper, ]"
   },
   {
+    "date": "2026-04-21",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
     "date": "2026-04-27",
     "ws": "Empirical Micro WS",
     "info": "Claudio Ferraz, (University of British Columbia), TBA"
+  },
+  {
+    "date": "2026-04-28",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-05-11",
@@ -73,5 +93,10 @@
     "date": "2026-06-29",
     "ws": "Empirical Micro WS",
     "info": "Luca Henkel, (Erasmus University Rotterdam), TBA"
+  },
+  {
+    "date": "2026-12-28",
+    "ws": "Empirical Micro WS",
+    "info": "Nathaniel Baum-Snow, (University of Toronto), TBA"
   }
 ]
