@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-03-19",
-    "ws": "Micro Theory WS",
-    "info": "Michael Ostrovsky  (Stanford University),, “Carpooling and the Economics of Self-Driving Cars”"
-  },
-  {
     "date": "2026-03-23",
     "ws": "Empirical Micro WS",
     "info": "Gregor Pfeifer, (University of Sydney), Abortion Access and Long-Run Household Outcomes: Evidence from Population-Wide, Linked Administrative Data"
@@ -63,6 +58,11 @@
     "date": "2026-05-11",
     "ws": "Empirical Micro WS",
     "info": "Xuan Zhang, (Singapore Management University), TBA"
+  },
+  {
+    "date": "2026-05-12",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-05-18",
