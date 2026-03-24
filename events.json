@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-03-23",
-    "ws": "Empirical Micro WS",
-    "info": "Gregor Pfeifer, (University of Sydney), Abortion Access and Long-Run Household Outcomes: Evidence from Population-Wide, Linked Administrative Data"
-  },
-  {
     "date": "2026-03-31",
     "ws": "Macroeconomics WS",
     "info": "Leonardo D'Amico, (University of Chicago), TBA, Sage Belz, (Harvard University), TBA"
@@ -108,5 +103,10 @@
     "date": "2026-12-21",
     "ws": "Empirical Micro WS",
     "info": "Nathaniel Baum-Snow, (University of Toronto), TBA"
+  },
+  {
+    "date": "2027-03-23",
+    "ws": "Empirical Micro WS",
+    "info": "Gregor Pfeifer, (University of Sydney), Abortion Access and Long-Run Household Outcomes: Evidence from Population-Wide, Linked Administrative Data"
   }
 ]
