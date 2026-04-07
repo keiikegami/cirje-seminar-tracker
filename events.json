@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-04-06",
-    "ws": "Empirical Micro WS",
-    "info": "Rocco Macchiavello, (London School of Economics), (Managing) Violence Across UK Prisons\" (With Rocco d’Este (Sussex) and Ottavia Pesenti (LSE))"
-  },
-  {
-    "date": "2026-04-07",
-    "ws": "Micro Theory WS",
-    "info": "Simon Jantschgi (University of Zurich),, “"
-  },
-  {
     "date": "2026-04-13",
     "ws": "Empirical Micro WS",
     "info": "Peter Kuhn, (University of California Santa Barbara), Measuring Bias in Job Recommender Systems: Auditing the Algorithms\" (with Shuo Zhang) [, Paper, ]"
@@ -58,6 +48,11 @@
     "date": "2026-05-18",
     "ws": "Empirical Micro WS",
     "info": "Jeffery F. Timmons, (New York University Abu Dhabi), TBA"
+  },
+  {
+    "date": "2026-05-19",
+    "ws": "Micro Theory WS",
+    "info": "Shmuel Nitzan (Bar-Ilan University),, Protecting the Majority and the Minority in a Balanced Democracy"
   },
   {
     "date": "2026-05-25",
