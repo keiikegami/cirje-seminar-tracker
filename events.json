@@ -1,18 +1,8 @@
 [
   {
-    "date": "2026-04-13",
-    "ws": "Empirical Micro WS",
-    "info": "Peter Kuhn, (University of California Santa Barbara), Measuring Bias in Job Recommender Systems: Auditing the Algorithms\" (with Shuo Zhang) [, Paper, ]"
-  },
-  {
     "date": "2026-04-14",
     "ws": "Empirical Micro WS",
     "info": "Matthew J. Neidell, (Columbia University), Household Responses to Personalized Risk Information"
-  },
-  {
-    "date": "2026-04-14",
-    "ws": "Micro Theory WS",
-    "info": "Kota Murayama (CUHK),, ”A Network Approach to Merger Analysis”"
   },
   {
     "date": "2026-04-20",
@@ -63,6 +53,11 @@
     "date": "2026-06-08",
     "ws": "Empirical Micro WS",
     "info": "Jon Smith, (Georgia State University), TBA"
+  },
+  {
+    "date": "2026-06-09",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-06-15",
