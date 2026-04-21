@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-04-20",
-    "ws": "Empirical Micro WS",
-    "info": "Adrienne Sabety, (Stanford University), Healthcare Provider Bankruptcies\" with Samuel Antill, Jessica Bai, Ashvin Gandhi [, Paper, ]"
-  },
-  {
-    "date": "2026-04-21",
-    "ws": "Micro Theory WS",
-    "info": "Balázs Szentes (HKU Business School),, Information Design for AI Proxies under Imperfect Recall"
-  },
-  {
     "date": "2026-04-27",
     "ws": "Empirical Micro WS",
     "info": "Claudio Ferraz, (University of British Columbia), When Democracy Refuses to Die: Evaluating a Training Program for New Politicians\" with Ernesto Dal Bó, Frederico Finan and Pedro Pessoa [, Paper, ]"
@@ -52,7 +42,12 @@
   {
     "date": "2026-06-08",
     "ws": "Empirical Micro WS",
-    "info": "Jon Smith, (Georgia State University), TBA"
+    "info": "Jonathan Smith, (Georgia State University), TBA"
+  },
+  {
+    "date": "2026-06-09",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-06-15",
