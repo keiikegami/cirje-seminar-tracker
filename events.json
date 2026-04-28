@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-04-27",
-    "ws": "Empirical Micro WS",
-    "info": "Claudio Ferraz, (University of British Columbia), When Democracy Refuses to Die: Evaluating a Training Program for New Politicians\" with Ernesto Dal Bó, Frederico Finan and Pedro Pessoa [, Paper, ]"
-  },
-  {
-    "date": "2026-04-28",
-    "ws": "Micro Theory WS",
-    "info": "Saptarshi Mukherjee (Indian Institute of Technology Delhi),, “Rational Search and Stochastic Choice Processes”"
-  },
-  {
     "date": "2026-05-11",
     "ws": "Empirical Micro WS",
     "info": "Xuan Zhang, (Singapore Management University), The VIP Effect in Medicine: How Patients' Insider Knowledge, Social Ties, and Organizational Rank Shape Clinical Decisions\" with Jiaowei Gong, Jia Xiang, Chuanchuan Zhang  [, Paper, ]"
@@ -55,6 +45,11 @@
     "info": "Janjala (Pom) Chirakijja, (Monash University), TBA"
   },
   {
+    "date": "2026-06-16",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
     "date": "2026-06-22",
     "ws": "Empirical Micro WS",
     "info": "Xiaoxiao Li, (Villanova University), Ability Bias, Diploma Signaling, or Human Capital? A Factor Model-Based Decomposition of the Returns to Schooling\" with Mohitosh Kejriwal, Evan Totty [, Paper, ]"
@@ -63,6 +58,11 @@
     "date": "2026-06-29",
     "ws": "Empirical Micro WS",
     "info": "Ricard Gil, (IESE Business School, University of Navarra), TBA"
+  },
+  {
+    "date": "2026-06-30",
+    "ws": "Empirical Micro WS",
+    "info": "Xiaoyue Shan, (National University of Singapore), TBA"
   },
   {
     "date": "2026-07-06",
