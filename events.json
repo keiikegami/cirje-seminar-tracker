@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-05-18",
-    "ws": "Empirical Micro WS",
-    "info": "Cancelled, Jeffery F. Timmons, (New York University Abu Dhabi)"
-  },
-  {
-    "date": "2026-05-19",
-    "ws": "Micro Theory WS",
-    "info": "Shmuel Nitzan (Bar-Ilan University),, Protecting the Majority and the Minority in a Balanced Democracy"
-  },
-  {
     "date": "2026-05-25",
     "ws": "Empirical Micro WS",
     "info": "Veronica Grembi, (Sapienza Università di Roma), Gender Differences In Policy Literacy: Evidence from a Major Public Investment Program"
@@ -22,7 +12,7 @@
   {
     "date": "2026-06-08",
     "ws": "Empirical Micro WS",
-    "info": "Jonathan Smith, (Georgia State University), TBA"
+    "info": "Jonathan Smith, (Georgia State University), Which Colleges Increase Voting Rates?\" with D’Wayne Bell, John B. Holbein, Samuel J. Imlay   [, Paper, ]"
   },
   {
     "date": "2026-06-09",
@@ -36,6 +26,11 @@
   },
   {
     "date": "2026-06-16",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
+    "date": "2026-06-18",
     "ws": "Micro Theory WS",
     "info": "TBA"
   },
