@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-05-25",
-    "ws": "Empirical Micro WS",
-    "info": "Veronica Grembi, (Sapienza Università di Roma), Gender Differences In Policy Literacy: Evidence from a Major Public Investment Program"
-  },
-  {
-    "date": "2026-05-26",
-    "ws": "Micro Theory WS",
-    "info": "Yichuan Lou（University of Tokyo),, “The Limits of Verifiability in Communication”"
-  },
-  {
     "date": "2026-06-08",
     "ws": "Empirical Micro WS",
     "info": "Jonathan Smith, (Georgia State University), Which Colleges Increase Voting Rates?\" with D’Wayne Bell, John B. Holbein, Samuel J. Imlay   [, Paper, ]"
@@ -53,6 +43,11 @@
     "date": "2026-06-30",
     "ws": "Empirical Micro WS",
     "info": "Xiaoyue Shan, (National University of Singapore), TBA"
+  },
+  {
+    "date": "2026-06-30",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-07-06",
