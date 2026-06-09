@@ -1,23 +1,8 @@
 [
   {
-    "date": "2026-06-08",
-    "ws": "Empirical Micro WS",
-    "info": "Jonathan Smith, (Georgia State University), Which Colleges Increase Voting Rates?\" with D’Wayne Bell, John B. Holbein, Samuel J. Imlay   [, Paper, ]"
-  },
-  {
-    "date": "2026-06-09",
-    "ws": "Micro Theory WS",
-    "info": "Alexander Westkamp (University of Cologne),, “Marginal mechanisms for balanced exchange”"
-  },
-  {
     "date": "2026-06-15",
     "ws": "Empirical Micro WS",
     "info": "Janjala (Pom) Chirakijja, (Monash University), Wages, Taxes, and Labor Supply Elasticities: The Role of Social Preferences\" with Pinchuan Ong [, Paper, ]"
-  },
-  {
-    "date": "2026-06-16",
-    "ws": "Micro Theory WS",
-    "info": "TBA"
   },
   {
     "date": "2026-06-18",
@@ -43,6 +28,11 @@
     "date": "2026-06-30",
     "ws": "Empirical Micro WS",
     "info": "Xiaoyue Shan, (National University of Singapore), TBA"
+  },
+  {
+    "date": "2026-06-30",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
   },
   {
     "date": "2026-07-06",
