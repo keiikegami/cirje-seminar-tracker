@@ -1,13 +1,18 @@
 [
   {
     "date": "2026-07-28",
+    "ws": "Empirical Micro WS",
+    "info": "Nick Zubanov, (University of Konstanz), TBA"
+  },
+  {
+    "date": "2026-07-28",
     "ws": "Micro Theory WS",
     "info": "Takashi Hayashi (University of Glasgow),, “Equilibrium consequence of welfare egalitarianism”"
   },
   {
     "date": "2026-07-29",
     "ws": "Empirical Micro WS",
-    "info": "Kohei Hayashida, (University College London), TBA"
+    "info": "Kohei Hayashida, (University College London), The Economic Value of Algorithmic Match Recommendations: Evidence from a Natural Experiment on a Dating Platform"
   },
   {
     "date": "2026-09-17",
