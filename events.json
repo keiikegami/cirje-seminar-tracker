@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-10-26",
-    "ws": "Empirical Micro WS",
-    "info": "Sebastian Seitz, (The University of Manchester), Disability insurance between fiscal goals and individual outcomes"
-  },
-  {
-    "date": "2026-10-27",
-    "ws": "Micro Theory WS",
-    "info": "Hiroki Shinozaki  (Nagoya University),, “Constrained combinatorial auctions without quasi-linearity”"
-  },
-  {
     "date": "2026-11-02",
     "ws": "Empirical Micro WS",
     "info": "Heng Chen, (The Faculty of Business and Economics of The University of Hong Kong; HKU Business School), Divorce Frictions and Abortion Decisions: Evidence from a Family Law Reform"
@@ -41,6 +31,11 @@
   },
   {
     "date": "2026-12-08",
+    "ws": "Micro Theory WS",
+    "info": "TBA"
+  },
+  {
+    "date": "2026-12-15",
     "ws": "Micro Theory WS",
     "info": "TBA"
   },
